@@ -1,7 +1,4 @@
 import React from "react";
-import _ from "lodash";
-import { useAuth } from "../contexts/AuthContext";
-import { withRouter  } from "react-router-dom";
 import {
   ProSidebar,
   SidebarHeader,
@@ -249,8 +246,8 @@ export default class Dashboard extends React.Component {
             !partnershipsScreenActive &&
             !treesAreasScreenActive && (
               <div style={{ width: '100%', height: '100%', fontFamily: 'Roboto', backgroundImage: 'url(https://images.unsplash.com/photo-1517816743773-6e0fd518b4a6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8d2hpdGUlMjBtaW5pbWFsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80)', backgroundSize: 'cover'}}>
-                <img style={{width: '25em', height: '20em', position: 'absolute', right: '3vw', bottom: '30vh'}} src={"https://www.pngall.com/wp-content/uploads/8/Job-Work-PNG-File.png"}/>
-                <img style={{width: '5em', height: '5em', position: 'absolute', left: '1vw', top: '1vh'}} src={"https://cdn.blueberriesconsulting.com/2019/01/leaf-logo.png"} />
+                <img style={{width: '25em', height: '20em', position: 'absolute', right: '3vw', bottom: '30vh'}} src={"https://www.pngall.com/wp-content/uploads/8/Job-Work-PNG-File.png"} alt={""}/>
+                <img style={{width: '5em', height: '5em', position: 'absolute', left: '1vw', top: '1vh'}} src={"https://cdn.blueberriesconsulting.com/2019/01/leaf-logo.png"} alt={""}/>
                 <h1 style={{ fontFamily: 'Roboto', position: 'absolute', left: '6vw', top: '3vh', color: "#283341"}}>Forma green</h1>
                 <p style={{width: '30%', position: 'absolute', top: '40vh', left: '10vw', backgroundColor: '#283341', padding: '2em', borderRadius: '20px', color: 'white'}}>Welcome on the forma green management dashboard, throught this application you can manage your volunteers, your green areas and your partnerships. Take a look on the left side drawer.</p>
               </div>

@@ -1,5 +1,4 @@
 import React from "react";
-import QRCode from "react-qr-code";
 import {getPartnerAll} from "../_functions/partnerships/index";
 import Table from "rc-table";
 import _ from "lodash";

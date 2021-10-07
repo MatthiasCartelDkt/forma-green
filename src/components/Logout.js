@@ -5,7 +5,7 @@ import { useAuth } from "../contexts/AuthContext";
 import { useHistory } from "react-router-dom";
 
 export default function Logout() {
-const [error, setError] = useState("")
+const [_error, setError] = useState("")
   const { logout } = useAuth();
   const { history } = useHistory();
   async function handleLogout() {
@@ -13,7 +13,7 @@ const [error, setError] = useState("")
       await logout();
       history.push("/login");
     } catch (error) {
-        setError(`Failed to login : ${error}`)
+        setError(`Failed to login : ${_error}`)
     }
   }
 

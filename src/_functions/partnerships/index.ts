@@ -7,7 +7,7 @@ export async function getPartnerAll(): Promise<Partnership[]> {
     .orderBy("name", "asc")
     .get();
   return result.docs.map(
-    (ref) => Object.assign({ id: ref.id }, ref.data()) as Partnership
+    (ref: any) => Object.assign({ id: ref.id }, ref.data()) as Partnership
   );
 }
 
@@ -16,7 +16,7 @@ export async function getPartnerBydId(partnerId: string): Promise<Partnership> {
     .collection("partnerships")
     .doc(partnerId)
     .get();
-  if (!result.exists) throw { code: 404, message: `Course doesn't exist in database with id ${partnerId}` }
+  if (!result.exists) throw { error: { code: 404, message: `Course doesn't exist in database with id ${partnerId}` }}
   return Object.assign({ id: partnerId }, result.data()) as Partnership
 }
 

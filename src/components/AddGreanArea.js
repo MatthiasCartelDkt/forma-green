@@ -1,6 +1,5 @@
 import React, { useRef, useState } from "react"
 import { Form, Button, Card, Alert } from "react-bootstrap"
-import { FaWindows } from "react-icons/fa";
 import { addArea } from "../_functions/green_areas/index";
 
 export default function AddGreanArea() {
