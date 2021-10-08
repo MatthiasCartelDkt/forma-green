@@ -1,6 +1,8 @@
 # WELCOME ON FORMA GREEN MANAGER APPLICATION 🌳
 
-A solution for the forma green company, this allow you to manage your green areas, volunteers and partnerships.
+🗂️ Github[https://github.com/MatthiasCartelDkt/forma-green]
+
+A solution for the forma green company, that allow you to manage your green areas, volunteers and partnerships.
 
 ## INSTALLATION 
 
@@ -11,12 +13,12 @@ A solution for the forma green company, this allow you to manage your green area
 
 Open the project with VScode or other IDE. You need to be in the FormaProject root.
 
-Type : 
+In terminal : 
 
-- yarn
-- yarn start
+- yarn (for install the dependencies)
+- yarn start (execute the start script)
 
-This will open the project at http://localhost:3000
+That will open the project at http://localhost:3000
 
 ## LOGIN 
 
@@ -45,3 +47,9 @@ Click on the green areas section, after that you will be allow to see and add gr
 Few steps for read the member QR code : 
 - On google chrome browser go to this extension : https://chrome.google.com/webstore/detail/right-click-qrcode-reader/lnhgdalhhjkfmmdjbkhilkinoomigdkc?hl=en
 - Install the extension, click on it and scan your qr codes
+
+## CI/CD
+
+Firebase hosting preview CD is available here[https://github.com/MatthiasCartelDkt/forma-green/actions].
+That allow you to see the last modifications in a temporary live preview.
+
