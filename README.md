@@ -1,15 +1,15 @@
 # WELCOME ON FORMA GREEN MANAGER APPLICATION 🌳
 
-🗂️ Github[https://github.com/MatthiasCartelDkt/forma-green]
+🗂️ Github: https://github.com/MatthiasCartelDkt/forma-green
 
 A solution for the forma green company, that allow you to manage your green areas, volunteers and partnerships.
 
 ## INSTALLATION 
 
-(Required) NodeJs : https://nodejs.org/en/download/
-(Required) Yarn : https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable
-(Required) Google chrome : https://www.google.com/chrome/?brand=JJTC&gclsrc=ds&gclsrc=ds
-(Optionnal) Visual Studio code : https://code.visualstudio.com/download
+- (Required) NodeJs : https://nodejs.org/en/download/
+- (Required) Yarn : https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable
+- (Required) Google chrome : https://www.google.com/chrome/?brand=JJTC&gclsrc=ds&gclsrc=ds
+- (Optionnal) Visual Studio code : https://code.visualstudio.com/download
 
 Open the project with VScode or other IDE. You need to be in the FormaProject root.
 
@@ -24,8 +24,8 @@ That will open the project at http://localhost:3000
 
 Log with the admin account : 
 
-email : admin@admin-forma.com
-password : admin123
+- email : admin@admin-forma.com
+- password : admin123
 
 Your role will be the member one, you will have all the rights you need to test the application.
 
